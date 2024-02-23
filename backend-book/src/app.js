@@ -4,9 +4,8 @@ const mongoose = require('mongoose');
 const authRoutes = require('./routes/authRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const userRoutes = require('./routes/userRoutes');
-const adminRoutes = require('./routes/adminRoutes');
 const invoiceRoutes = require('./routes/invoiceRoutes');
-const adminRoutes = require('./routes/adminRoutes');
+
 
 
 
@@ -21,9 +20,8 @@ app.use('/api/books', require('./routes/bookRoutes'));
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/user', userRoutes);
-app.use('/api/admin', adminRoutes);
 app.use('/api/invoices', invoiceRoutes);
-app.use('/api/admin', adminRoutes);
+
 
 // MongoDB Connection
 const url = "mongodb://localhost:27017/bookshop";
