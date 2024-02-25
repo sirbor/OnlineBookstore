@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "passport": "^0.7.0",
-    "passport-jwt": "^4.0.1",
-    "passport-local": "^1.0.0"
-  }
-}
